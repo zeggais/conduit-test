@@ -13,8 +13,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 
-public class AuthentificationTest
-{
+public class AuthentificationTest extends AbstractTestSetUp {
     @Rule
     public TextReport textReport = new TextReport();
 
